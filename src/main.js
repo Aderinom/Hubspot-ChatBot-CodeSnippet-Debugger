@@ -3,9 +3,9 @@ const { run } = require("./utils/run");
 
 
 async function main() {
-    // Enable console STDIN
-    await run("KDNRtoProductType",ExampleSnippet.main);
-    
+
+    // Register your main function here to test it.
+    await run("ExampleSnippet",ExampleSnippet.main);
 
     process.exit(0);
 }
