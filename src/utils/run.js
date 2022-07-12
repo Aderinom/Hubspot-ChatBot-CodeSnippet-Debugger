@@ -56,6 +56,7 @@ const example_event = {
     },
     "customPayload": null
 }
+
 function read_input() {
     return readline(); // STDIN_FILENO = 0
 }
