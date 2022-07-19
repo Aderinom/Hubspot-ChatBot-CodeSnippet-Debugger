@@ -12,29 +12,29 @@ const { readline } = require("./readStdinjs");
 // Global variables - because why not
 var boundCB;
 const example_event = {
-    "portalId": 7940397,
+    "portalId": 1234567,
     "userMessage": { "message": "", "quickReply": null },
     "parsedResult": null,
     "bot": {
-        "nickname": "New chatflow (27. Mai 2022 15:17)",
+        "nickname": "Debugger chatflow",
         "conversationChannelType": "WEB",
-        "chatflowId": 5764141
+        "chatflowId": 1234567
     },
     "module": {
-        "botNickname": "New chatflow (27. Mai 2022 15:17)",
+        "botNickname": "Debugger chatflow",
         "fallbackNextModuleNickname": null,
         "failureNextModuleNickname": null,
         "moduleType": "LAMBDA",
-        "nickname": "Ask CID",
+        "nickname": "Debugger chatflow",
         "prompt": null,
         "promptHtml": null,
-        "config": { "functionId": 31204166, "customPayload": null }
+        "config": { "functionId": 1234567, "customPayload": null }
     },
     "session": {
-        "vid": 238531145,
-        "conversationId": 2666014986,
-        "botNickname": "New chatflow (27. Mai 2022 15:17)",
-        "currentModuleNickname": "Ask CID",
+        "vid": 123456789,
+        "conversationId": 1234567890,
+        "botNickname": "Debugger chatflow",
+        "currentModuleNickname": "Debugger chatflow",
         "sessionStartedAt": 1653657656420,
         "lastInteractionAt": 1653657656536,
         "state": "ACTIVE",
